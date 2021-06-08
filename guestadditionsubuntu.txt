@@ -1,0 +1,18 @@
+# GusestAdditionsOnUbuntu.
+#First run the below commands to update the OS.
+
+$ sudo apt update
+$ sudo apt upgrade
+
+Restart your VM for recent updates to take effect
+Run below command to install required packages.
+
+$ sudo apt install build-essential dkms linux-headers-$(uname -r)
+
+Now,from the Virtual Machine menu bar, 
+Go to Devices => click on Insert Guest Additions CD image.
+
+When prompted click on "Run" the installer to launch it.
+Restart your VM when prompted to do so.
+
+Enable Shared Clipboard and Drag’n’Drop from the menu
